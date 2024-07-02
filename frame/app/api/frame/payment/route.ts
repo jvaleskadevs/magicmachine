@@ -50,7 +50,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       }
     ],
     image: {
-      src: `${URL}/payment.jpeg`,
+      src: `${URL}/payment.png`,
       aspectRatio: '1:1'
     },
     postUrl: targetUrl,

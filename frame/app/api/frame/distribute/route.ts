@@ -76,7 +76,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       }
     ],
     image: {
-      src: `${URL}/approvemint.jpeg`,
+      src: `${URL}/approvemint.png`,
       aspectRatio: '1:1'
     },
     postUrl: `${URL}/api/frame/distribute?amount=${amount}&chain=${chain}&payment=${payment}`,
