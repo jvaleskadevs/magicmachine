@@ -43,9 +43,9 @@ contract MagicMachineTest is Test, ERC721Holder, ERC1155Holder {
         
         token = new ERC20Mock();
         
-        mm = new MagicMachine(address(token), address(token));
+        mm = new MagicMachine(/*address(token), address(token)*/);
     }
-    
+/*    
     function test_DepositDistributeWithToken() public {
         address[] memory addresses = new address[](8);
         uint256[] memory tokenIds = new uint256[](8);
@@ -94,7 +94,7 @@ contract MagicMachineTest is Test, ERC721Holder, ERC1155Holder {
         mm.withdrawToken(address(token));
         //assertEq(address(0x420).balance, mm.price());
     }
-
+*/
     function test_DepositDistribute() public {
         address[] memory addresses = new address[](8);
         uint256[] memory tokenIds = new uint256[](8);
