@@ -7,7 +7,7 @@ import {IERC721} from "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 import {IERC1155} from "@openzeppelin/contracts/token/ERC1155/IERC1155.sol";
 import {IERC165} from "@openzeppelin/contracts/interfaces/IERC165.sol";
 
-contract TransferOwnershipScript is Script {
+contract DepositScript is Script {
     function setUp() public {
     
     }
@@ -21,7 +21,7 @@ contract TransferOwnershipScript is Script {
     
         // TOTAL NUMBER OF NFTS TO BE DEPOSITED
     
-        uint totalNfts = 31;
+        uint totalNfts = 32;
     
         address[] memory addresses = new address[](totalNfts);
         uint[] memory ids = new uint[](totalNfts);
@@ -131,7 +131,7 @@ contract TransferOwnershipScript is Script {
             if (IERC165(addresses[i]).supportsInterface(type(IERC1155).interfaceId)) {
                 IERC1155(addresses[i]).setApprovalForAll(address(mm), true);
             } else if (IERC165(addresses[i]).supportsInterface(type(IERC721).interfaceId)) {
-                IERC721(addresses[i]).approve(address(mm), ids[i]);
+                IERC721(addresses[i]).setApprovalForAll(address(mm), true);
             }
         }
         
