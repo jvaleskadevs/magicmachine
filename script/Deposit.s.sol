@@ -29,21 +29,21 @@ contract DepositScript is Script {
         
         // NFTS ADDRESSES AND TOKEN IDS         
 
-        addresses[0] = 0x40dd9fc8b5b3d9e239926a4ea6ed2cc3dfadcb84;
-        addresses[1] = 0x605ac7331abc154df3f888e4e7ad0a61314a8e3e;
-        addresses[2] = 0xc6fcfec90c9ef70915a75d8da426f84ec04f4f3f;
-        addresses[3] = 0xd00e15f17533007d914ae802da83e32f18f4856f;
-        addresses[4] = 0x44bdad543228941b38325c933f32b8bef1b52f4b;
-        addresses[5] = 0x6d6df6718fb6faf5b94bfce2db2d6fb36d1f3c9a;
-        addresses[6] = 0x276cbd0d4fd590b777ee4b51853504c60761c9fe;
-        addresses[7] = 0x276cbd0d4fd590b777ee4b51853504c60761c9fe;
-        addresses[8] = 0x6d6df6718fb6faf5b94bfce2db2d6fb36d1f3c9a;
-        addresses[9] = 0x6d6df6718fb6faf5b94bfce2db2d6fb36d1f3c9a;
-        addresses[10] = 0x6d6df6718fb6faf5b94bfce2db2d6fb36d1f3c9a;
-        addresses[11] = 0xaf613577bb7c74c4da8c7d03a34222ed08032de4;
-        addresses[12] = 0xa0710c994af5f724b60d8a3ab9697cfbb31111d6;
-        addresses[13] = 0x6d6df6718fb6faf5b94bfce2db2d6fb36d1f3c9a;
-        addresses[14] = 0x276cbd0d4fd590b777ee4b51853504c60761c9fe;
+        addresses[0] = 0x40dd9FC8B5B3d9e239926a4eA6ed2Cc3dFADCB84;
+        addresses[1] = 0x605ac7331aBc154dF3F888e4E7Ad0A61314A8e3E;
+        addresses[2] = 0xC6FCfEC90C9EF70915a75d8da426f84eC04F4f3f;
+        addresses[3] = 0xD00e15F17533007d914ae802DA83e32F18f4856f;
+        addresses[4] = 0x44bDAd543228941B38325c933f32b8bEF1B52F4B;
+        addresses[5] = 0x6d6DF6718FB6FAF5B94bfce2Db2D6FB36d1F3c9A;
+        addresses[6] = 0x276cbd0D4FD590b777ee4B51853504c60761C9fe;
+        addresses[7] = 0x276cbd0D4FD590b777ee4B51853504c60761C9fe;
+        addresses[8] = 0x6d6DF6718FB6FAF5B94bfce2Db2D6FB36d1F3c9A;
+        addresses[9] = 0x6d6DF6718FB6FAF5B94bfce2Db2D6FB36d1F3c9A;
+        addresses[10] = 0x6d6DF6718FB6FAF5B94bfce2Db2D6FB36d1F3c9A;
+        addresses[11] = 0xaF613577BB7c74C4da8C7d03a34222ED08032De4;
+        addresses[12] = 0xA0710C994Af5f724B60d8A3Ab9697Cfbb31111d6;
+        addresses[13] = 0x6d6DF6718FB6FAF5B94bfce2Db2D6FB36d1F3c9A;
+        addresses[14] = 0x276cbd0D4FD590b777ee4B51853504c60761C9fe;
 
         ids[0] = 1;    
         ids[1] = 662;
