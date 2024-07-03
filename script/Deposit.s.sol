@@ -21,14 +21,46 @@ contract DepositScript is Script {
     
         // TOTAL NUMBER OF NFTS TO BE DEPOSITED
     
-        uint totalNfts = 32;
+        uint totalNfts = 15;
     
         address[] memory addresses = new address[](totalNfts);
         uint[] memory ids = new uint[](totalNfts);
             
         
         // NFTS ADDRESSES AND TOKEN IDS         
-      
+
+        addresses[0] = 0x40dd9fc8b5b3d9e239926a4ea6ed2cc3dfadcb84;
+        addresses[1] = 0x605ac7331abc154df3f888e4e7ad0a61314a8e3e;
+        addresses[2] = 0xc6fcfec90c9ef70915a75d8da426f84ec04f4f3f;
+        addresses[3] = 0xd00e15f17533007d914ae802da83e32f18f4856f;
+        addresses[4] = 0x44bdad543228941b38325c933f32b8bef1b52f4b;
+        addresses[5] = 0x6d6df6718fb6faf5b94bfce2db2d6fb36d1f3c9a;
+        addresses[6] = 0x276cbd0d4fd590b777ee4b51853504c60761c9fe;
+        addresses[7] = 0x276cbd0d4fd590b777ee4b51853504c60761c9fe;
+        addresses[8] = 0x6d6df6718fb6faf5b94bfce2db2d6fb36d1f3c9a;
+        addresses[9] = 0x6d6df6718fb6faf5b94bfce2db2d6fb36d1f3c9a;
+        addresses[10] = 0x6d6df6718fb6faf5b94bfce2db2d6fb36d1f3c9a;
+        addresses[11] = 0xaf613577bb7c74c4da8c7d03a34222ed08032de4;
+        addresses[12] = 0xa0710c994af5f724b60d8a3ab9697cfbb31111d6;
+        addresses[13] = 0x6d6df6718fb6faf5b94bfce2db2d6fb36d1f3c9a;
+        addresses[14] = 0x276cbd0d4fd590b777ee4b51853504c60761c9fe;
+
+        ids[0] = 1;    
+        ids[1] = 662;
+        ids[2] = 5;    
+        ids[3] = 6;
+        ids[4] = 2;    
+        ids[5] = 269;
+        ids[6] = 82;   
+        ids[7] = 80;
+        ids[8] = 48;   
+        ids[9] = 81;
+        ids[10] = 292; 
+        ids[11] = 9;
+        ids[12] = 7;   
+        ids[13] = 352;
+        ids[14] = 83;
+/*      
         addresses[0] = 0x08944A25da2046009b19c9EC5503Bdc8B50B0a6E;
         ids[0] = 1;
        
@@ -124,7 +156,7 @@ contract DepositScript is Script {
         
         addresses[31] = 0xFBf325585DD8153F722923fBd31095E4694650E9;
         ids[31] = 84;    
-    
+*/    
         vm.startBroadcast(vm.envUint("PK"));
         
         for (uint i = 0; i < totalNfts; i++) {
