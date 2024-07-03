@@ -17,7 +17,7 @@ contract DepositScript is Script {
         address machineAddress = address(0xB07b0Cf8305D6b40A9d6EfEbA12Ae81C0FfeFed5); // base
         address machineAddressZora = address(0xaAb5272670fa89dA30114A8FbE22324FaC96bEb4); // zora
         
-        MagicMachine mm = MagicMachine(machineAddress);
+        MagicMachine mm = MagicMachine(machineAddressZora);
     
         // TOTAL NUMBER OF NFTS TO BE DEPOSITED
     
