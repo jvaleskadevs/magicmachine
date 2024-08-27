@@ -41,8 +41,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     {
       action: 'link',
       label: 'View artwork',
-      //target: `https://testnets.opensea.io/assets/base-sepolia/${nft}/${tokenId}`
-      target: `https://zora.co/collect/${chainid === zora.id ? 'zora' : 'base'}:${nft}/${tokenId}`
+      target: `https://opensea.io/assets/base/${nft}/${tokenId}`
+      //target: `https://zora.co/collect/${chainid === zora.id ? 'zora' : 'base'}:${nft}/${tokenId}`
     },
     {
       action: 'link',
